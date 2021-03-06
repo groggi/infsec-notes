@@ -11,7 +11,10 @@
 
 # Software Products
 ## VMWare vCenter
-* VMware vCenter/vSphere(?)  using VMware logo (based on copyright up to 2019): [urlscan.io: `hash:BEB5B85445738AB3A79723F84B20E41071CE4542E151C23E57852A49105E00C8`](https://urlscan.io/search/#hash%3ABEB5B85445738AB3A79723F84B20E41071CE4542E151C23E57852A49105E00C8)
+* VMware vCenter/vSphere(?) using VMware logo (based on copyright up to 2019): [urlscan.io: `hash:BEB5B85445738AB3A79723F84B20E41071CE4542E151C23E57852A49105E00C8`](https://urlscan.io/search/#hash%3ABEB5B85445738AB3A79723F84B20E41071CE4542E151C23E57852A49105E00C8)
 * Likely publicly visible vCenter: [censys.io: `443.https.tls.certificate.parsed.names: vcenter OR 443.https.get.title:ID_VC_Welcome OR 80.http.get.title:ID_VC_Welcome`](https://censys.io/ipv4?q=443.https.tls.certificate.parsed.names%3A+vcenter+OR+443.https.get.title%3AID_VC_Welcome+OR+80.http.get.title%3AID_VC_Welcome)
 
-
+## Microsoft Exchange Server: Outlook Web App (OWA)
+* OWA instances:
+  * [censys.io `443.https.get.headers.unknown.key: x_owa_version OR 80.https.get.headers.unknown.key: x_owa_version OR 443.https.get.title: "Outlook" OR 80.http.get.title: "Outlook"`](https://censys.io/ipv4?q=443.https.get.headers.unknown.key%3A+x_owa_version+OR+80.https.get.headers.unknown.key%3A+x_owa_version+OR+443.https.get.title%3A+%22Outlook%22+OR+80.http.get.title%3A+%22Outlook%22)
+  * [urlscan.io `"x-owa-version" OR http.title:"Outlook"`](https://www.shodan.io/search?query=%22x-owa-version%22+OR+http.title%3A%22Outlook%22)
